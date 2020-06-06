@@ -1,0 +1,118 @@
+.container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin-top: 40px;
+    background-color: rgb(237, 237, 238);
+}
+.first, .second, .third {
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+    box-shadow: 5px 3px 5px gray;
+    padding: 5px 5px;
+    background-color: white;
+    margin-bottom: 20px;
+}
+h3 {
+    color: darkblue;
+}
+.card {
+    margin-top: 50px;
+}
+.product-main {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    background-color: rgb(237, 237, 238);
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+.product-heading {
+    color: darkblue;
+    margin-top: 30px;
+}
+.footer {
+    background-color: rgb(19, 19, 24);
+    margin-top: 20px;
+}
+.footer-paragraph {
+    color: white;
+}
+.fa-facebook-square, .fa-youtube-square, .fa-envelope {
+    color: white;
+    font-size: 12pt;
+}
+.fa-diamond, .fa-gamepad, .fa-mobile {
+    color: darkblue;
+    font-size: 25pt !important;
+}
+.icon {
+    margin-right: 15px;
+}
+.video {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+.page-body {
+    margin: 20px;
+    background-color: rgb(46, 46, 46);
+}
+.about-pic {
+    width: 100%;
+}
+h1 {
+    font-weight: bold;
+    color: white;
+}
+.about-text {
+    margin: 10px;
+    color: white;
+}
+.about-h3 {
+    color: lightblue;
+    margin-left: 10px;
+}
+.library-h1 {
+    margin-left: 8px;
+}
+.detail-h1 {
+    margin: 10px;
+}
+.about-thumb {
+    width: 100%;
+}
+form{
+    background-color: wheat;
+}
+.contact-submit {
+    background-color: teal;
+    color: white;
+    margin-bottom: 5px;
+    border-radius: 9px;
+}
+.fa-youtube, .fa-facebook, .fa-envelope-open {
+    color: white;
+    font-size: 28pt !important;
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+.contact-icons {
+    display: flex;
+    flex-direction: column;
+}
+.contact-icon-h {
+    display: flex;
+    flex-direction: column;
+}
+.contact-bottom-p {
+    color: white;
+}
+.fa-arrow-circle-up {
+    font-size: 30pt !important;
+    margin-left: 18px !important;
+    color: darkslateblue !important;
+}
